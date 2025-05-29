@@ -1,14 +1,14 @@
-#include &lt;stdio.h&gt;
+#include <stdio.h&>
 int main() {
 
 int a = 1;
 while(a != 0){
-printf(&quot;Insira um numero: \n&quot;);
-scanf(&quot;%d&quot;, &amp;a);
+printf("Insira um numero: \n");
+scanf("%d", &a);
 if(a % 2 == 0){
-printf(&quot;%d eh par!\n&quot;, a);
+printf("%d eh par!\n", a);
 }else{
-printf(&quot;%d eh impar!\n&quot;,a);
-}
-}
+printf("%d eh impar!\n",a);
+  }
+  }
 }
